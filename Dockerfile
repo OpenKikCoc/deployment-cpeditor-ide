@@ -34,5 +34,3 @@ RUN apt-get update && \
     \
     mv ./cpeditor /usr/sbin/cpeditor && \
     rm -rf /tmp/*
-
-CMD firefox https://addons.mozilla.org/firefox/downloads/file/3716460/competitive_companion-2.19.7-fx.xpi
