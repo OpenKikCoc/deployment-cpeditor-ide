@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  cpeditor_ide_dc:
+    container_name: cpeditor_ide
+    # build: .
+    image: binacslee/cpeditor-ide:latest
+    environment:
+      DISPLAY_WIDTH: "1920"
+      DISPLAY_HEIGHT: "1080"
+    volumes:
+      - ./:/work
+    ports:
+      - 10000:10000
